@@ -138,7 +138,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office-2.jpg);
+    url(../images/people-office-2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -433,12 +433,15 @@ a {
 
 .footer-descr {
   max-width: 264px;
-  margin-right: 120px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.footer-social {
+  margin-right: 80px;
 }
 
 .footer-social-text {
@@ -478,4 +481,69 @@ a {
 .footer-link-item:hover,
 .footer-link-item:focus {
   background-color: #31d0aa;
+}
+
+.email-items {
+  max-width: 453px;
+}
+
+.email-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+form {
+  display: flex;
+  gap: 24px;
+}
+
+.email-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  padding-left: 16px;
+}
+
+.email-input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.email-button {
+  display: flex;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email-icon {
+  fill: #fff;
+}
+
+.email-button:hover,
+.email-button:focus {
+  background: #404bbf;
 }
